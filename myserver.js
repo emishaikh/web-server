@@ -18,8 +18,8 @@ var middleWare ={
 app.get('/', function(req ,res){
     res.send('Hello word');
 });
-app.get('/gmail', function(req ,res) {
-    res.send('www.gmail.com' );
+app.get('/about', function(req ,res) {
+    res.send('About Us' );
 });
 
 
